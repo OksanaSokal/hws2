@@ -67,6 +67,7 @@ const MessageSender = (props: any) => {
                     {/*текст кнопки могут изменить студенты*/}
                     Send
                     {/**/}
+                {/*    check*/}
                 </button>
             </div>
         </>
