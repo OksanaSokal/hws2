@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/OksanaSokal/hws2/static/css/main.d2d0896c.css",
+    "main.js": "/OksanaSokal/hws2/static/js/main.20ff95a5.js",
+    "static/js/787.67f55d8d.chunk.js": "/OksanaSokal/hws2/static/js/787.67f55d8d.chunk.js",
+    "static/media/avatar.png": "/OksanaSokal/hws2/static/media/avatar.d947cb9d0d13765666b6.png",
+    "index.html": "/OksanaSokal/hws2/index.html",
+    "main.d2d0896c.css.map": "/OksanaSokal/hws2/static/css/main.d2d0896c.css.map",
+    "main.20ff95a5.js.map": "/OksanaSokal/hws2/static/js/main.20ff95a5.js.map",
+    "787.67f55d8d.chunk.js.map": "/OksanaSokal/hws2/static/js/787.67f55d8d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2d0896c.css",
+    "static/js/main.20ff95a5.js"
+  ]
+}
