@@ -29,6 +29,7 @@ export const pureOnBlur = (name: string, setError: any) => { // если имя 
 }
 
 export const pureOnEnter = (e: KeyboardEvent<HTMLInputElement>, addUser: any) => { // если нажата кнопка Enter - добавить
+
     if (e.key === 'Enter') {
         addUser()
     }
@@ -54,7 +55,6 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
     const addUser = () => {
         pureAddUser(name, setError, setName, addUserCallback)
         setLastUserName(name)
-
     }
 
     const onBlur = () => {
@@ -70,8 +70,6 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
 
     const [lastUserName, setLastUserName] = useState('')
 
-
-    // const lastUserName = 'some name' // need to fix
 
     return (
         <Greeting

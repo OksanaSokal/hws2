@@ -10,7 +10,6 @@ type GreetingPropsType = {
     error: string // need to fix any
     totalUsers: number // need to fix any
     lastUserName?: string // need to fix any
-    // addTotalCount: ()=> void
 }
 
 // презентационная компонента (для верстальщика)
@@ -28,9 +27,6 @@ const Greeting: React.FC<GreetingPropsType> = (
 ) => {
     const inputClass = error ? `${s.errorInput} ${s.error}`:  s.input// need to fix with (?:)
 
-    const onClickHandler=() => {
-        addUser()
-    }
 
     return (
         <div id={'hw3-form'} className={s.greetingForm}>
@@ -58,7 +54,7 @@ const Greeting: React.FC<GreetingPropsType> = (
 
                 <button
                     id={'hw3-button'}
-                    onClick={onClickHandler}
+                    onClick={addUser}
                     className={s.button}
                     disabled={!name.trim()}
                 >
