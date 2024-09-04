@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 .App {
     --header_height: 60px;
     margin: 0 auto;
@@ -15,11 +17,17 @@
 }
 
 .hwTitle {
-
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
 }
 
 .wrapper {
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
+}
+
+.hw3 {
+    margin: 40px 0 40px;
 }
