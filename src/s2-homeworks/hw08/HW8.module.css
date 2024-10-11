@@ -8,6 +8,11 @@
 }
 
 .buttonsContainer {
+    margin: 20px 0;
+    display: flex;
+    justify-content: end;
+    width: 650px;
+    gap: 15px;
 }
 
 .container {
