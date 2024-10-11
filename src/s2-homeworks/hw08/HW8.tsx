@@ -4,7 +4,7 @@ import s from './HW8.module.css'
 import s2 from '../../s1-main/App.module.css'
 import SuperButton from '../hw04/common/c2-SuperButton/SuperButton'
 import User from './User'
-import {Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow} from '@mui/material';
+
 
 /*
 * 1 - дописать типы и логику (сортировка по имени, фильтрация по совершеннолетию) homeWorkReducer, проверить тестом
@@ -83,17 +83,27 @@ const HW8 = () => {
                         </SuperButton>
                     </div>
 
-                    <TableContainer component={Paper} sx={{maxWidth: 650}}>
-                        <Table  aria-label="simple table">
-                            <TableHead>
-                                <TableRow sx={{backgroundColor: '#E5E5E5'}}>
-                                    <TableCell align="left" sx={{fontWeight: 600}}>Name</TableCell>
-                                    <TableCell align="left"  sx={{fontWeight: 600}}>Age</TableCell>
-                                </TableRow>
-                            </TableHead>
-                            <TableBody>{finalPeople}</TableBody>
-                        </Table>
-                    </TableContainer>
+                    <table id={'hw8-users'} className={s.users}>
+                    {/*<TableContainer component={Paper} sx={{maxWidth: 650}}>*/}
+                    {/*    <Table  aria-label="simple table">*/}
+                            <thead className={s.thead}>
+                            {/*<TableHead>*/}
+                            {/*    <TableRow sx={{backgroundColor: '#E5E5E5'}}>*/}
+                                <tr>
+                                    {/*<TableCell align="left" sx={{fontWeight: 600}}>Name</TableCell>*/}
+                                    {/*<TableCell align="left"  sx={{fontWeight: 600}}>Age</TableCell>*/}
+                                    <td className={s.nameCol}>Name</td>
+                                    <td className={s.ageCol}>Age</td>
+                                {/*</TableRow>*/}
+                                </tr>
+                            {/*</TableHead>*/}
+                            </thead>
+
+                            <tbody>{finalPeople}</tbody>
+                            {/*<TableBody>{finalPeople}</TableBody>*/}
+                        {/*</Table>*/}
+                    {/*</TableContainer>*/}
+                    </table>
                 </div>
             </div>
         </div>
