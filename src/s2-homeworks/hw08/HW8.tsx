@@ -85,7 +85,6 @@ const HW8 = () => {
 
                     <TableContainer component={Paper} sx={{maxWidth: 650}}>
                         <Table  aria-label="simple table">
-                            {/*<thead className={s.thead}>*/}
                             <TableHead>
                                 <TableRow sx={{backgroundColor: '#E5E5E5'}}>
                                     <TableCell align="left" sx={{fontWeight: 600}}>Name</TableCell>
