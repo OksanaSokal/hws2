@@ -83,27 +83,18 @@ const HW8 = () => {
                         </SuperButton>
                     </div>
 
-                    {/*<table id={'hw8-users'} className={s.users}>*/}
                     <TableContainer component={Paper} sx={{maxWidth: 650}}>
                         <Table  aria-label="simple table">
                             {/*<thead className={s.thead}>*/}
                             <TableHead>
                                 <TableRow sx={{backgroundColor: '#E5E5E5'}}>
-                                {/*<tr>*/}
                                     <TableCell align="left" sx={{fontWeight: 600}}>Name</TableCell>
                                     <TableCell align="left"  sx={{fontWeight: 600}}>Age</TableCell>
-                                {/*    <td className={s.nameCol}>Name</td>*/}
-                                {/*    <td className={s.ageCol}>Age</td>*/}
                                 </TableRow>
-                                {/*</tr>*/}
                             </TableHead>
-                            {/*</thead>*/}
-
-                            {/*<tbody>{finalPeople}</tbody>*/}
                             <TableBody>{finalPeople}</TableBody>
                         </Table>
                     </TableContainer>
-                    {/*</table>*/}
                 </div>
             </div>
         </div>
